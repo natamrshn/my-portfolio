@@ -1,0 +1,23 @@
+.experience {
+  &__sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__tab {
+    background: transparent;
+    border: none;
+    color: #fff;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-left: 3px solid #ffffff2e;
+
+    &.active {
+      background: #1a1a1a;
+      border-left: 3px solid #fff;
+    }
+  }
+}

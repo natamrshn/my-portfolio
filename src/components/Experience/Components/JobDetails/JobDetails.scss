@@ -1,0 +1,28 @@
+.experience {
+
+  &__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  &__location {
+    color: #4aa3ff;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  &__date {
+    color: #aaa;
+    margin-bottom: 20px;
+  }
+
+  &__tasks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 10px;
+    }
+  }
+}

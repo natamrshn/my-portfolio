@@ -1,0 +1,8 @@
+.experience {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+    &__content-wrapper {
+    flex: 1;
+  }
+}
